@@ -7,19 +7,28 @@
   line-height: 1.5;
   font-family: "Outfit", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 350;
+}
+
+p strong{
+  font-weight: 550;
 }
 
 body{
-  background-color: #28643a56;
+  background-color: #568f517d;
 }
 
-h1, h2, h3{
+h1, h2{
   color: #28643a;
   margin-top: 1rem;
   font-family: "Autour One", serif;
   font-weight: 600;
   font-style: normal;
+}
+
+img{
+  width: 45vw;
+  height: fit-content;
 }
 
 #content{
@@ -31,14 +40,16 @@ h1, h2, h3{
   padding: 30px;
 }
 
-img{
-  width: 45vw;
-  height: fit-content;
+.Info{
+  margin: 4rem 0rem;
 }
 
-/* hr{
-  margin: auto auto;
-  width: 10rem;
-  border: 2px solid rgba(46, 93, 60, 0.63);
-  border-radius: 3px;
-} */
+hr {
+  display: block;
+  width: 75px;
+  border: none;
+  border-bottom: solid 2px #685011;
+  
+  position: relative;
+  bottom: 0;
+}
