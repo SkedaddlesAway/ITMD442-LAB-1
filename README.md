@@ -1,5 +1,5 @@
 # ITMD442-LAB-1
- First lab
+ First lab for ITMD 442 - Full Stack Web Developlment
 
 # Requirements
 - Create a GitHub account if you don’t have one
