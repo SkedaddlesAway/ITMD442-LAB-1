@@ -14,8 +14,10 @@ p strong{
   font-weight: 550;
 }
 
-body{
-  background-color: #568f517d;
+body{  
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(54, 95, 55, 0.5)),url(./images/forest_ruins.jpg);
+  background-size: cover;
+  background-position:center;
 }
 
 h1, h2{
@@ -34,10 +36,12 @@ img{
 #content{
   display: flexbox;
   width: 45vw;
-  margin: auto auto;
+  height: fit-content;
+  margin: 2rem auto 2rem auto;
   background-color: beige;
   border-radius: 10px;
   padding: 30px;
+  box-shadow: 10px 10px 5px ;
 }
 
 .Info{
@@ -49,7 +53,6 @@ hr {
   width: 75px;
   border: none;
   border-bottom: solid 2px #685011;
-  
   position: relative;
-  bottom: 0;
+  bottom: 0; top:-1rem;
 }
